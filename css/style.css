@@ -1,0 +1,182 @@
+
+
+
+body{
+    font-family: monospace;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.site-header{
+    position: sticky;
+    top: 0;
+    margin-bottom: 50px;
+    z-index: 99;
+    padding: 0px 5px;
+    box-shadow: 5px 0px 5px 0 rgba(0,0,0,0.5);
+    background-color: #fff;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+
+.nav__list-item{
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+.nav__list-item:last-child{
+    margin-right: 0;
+}
+
+.nav__list-item-link{
+    color: darkgray;
+}
+
+.nav__list-item-link:hover{
+    color: #000;
+}
+
+.bx-menu{
+    display: none;
+}
+
+/* VIDEO SECTION START  */
+
+.video-list{
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.video-list__item{
+    width: 30%;
+    height: 300px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+video{
+    width: 100%;
+}
+
+.video-list__item h3{
+    padding-left: 5px;
+}
+
+
+audio{
+    background-image: url("../images/fon-2.webp");
+    background-size: cover;
+}
+
+/* AUDIO SECTION STYLE */
+
+.audio-list{
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.audio-list__item{
+    width: 30%;
+    height: 100px;
+    padding: 15px 5px;
+    margin-bottom: 30px;
+    color: rgb(49, 107, 109);
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.audio-list__item:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+audio{
+    width: 98%;
+    background-color: white;
+}
+
+p{
+    color: blue;
+}
+
+/* video{
+    transition: .4s;
+}
+
+
+video:hover{
+    transform: scale(1.1);
+} */
+
+/* @media only screen and (max-width: 450px){
+
+
+
+    ul{
+        padding: 0;
+    }
+
+    .site-header__logo{
+        width: 120px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .bx-menu{
+        display: block;
+    }
+
+    .video-list{
+        width: 90%;
+        text-align: center;
+    }
+   
+    .video-list__item{
+       width: 100%;
+    }
+
+    video{
+        width: 100%;
+    }
+
+    .audio-list__item{
+        width: 90%;
+    }
+} */
